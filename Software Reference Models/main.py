@@ -1,5 +1,5 @@
 # 
-# Lewis Hunton | 11135261 | 07/10/25 | Electronics Engineering 3rd Year Project
+# Lewis Hunton | 07/10/25 | Electronics Engineering 3rd Year Project
 # Neural Network for the identification of hand written 8x8 resolution numbers for results verification of VLSI hardware 
 #
 import torch
