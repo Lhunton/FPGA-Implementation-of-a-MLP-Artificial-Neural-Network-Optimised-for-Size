@@ -32,7 +32,7 @@ Contextual Overview
 
 -----------------------------------------------------------------------------------------------------------------------------------
 # Verilog file hierarchy
-''
+```
 Counters.v (Copyright - Not provided)
 	└─TopLevelNN.v
 		├─NN_FSM.v
@@ -51,7 +51,7 @@ Counters.v (Copyright - Not provided)
 				└─Ripple_Carry_Adder_8bit.v
 					└─Full_adder.v
 			└─Activation_Function_Block.v
-''
+```
 
 
 
