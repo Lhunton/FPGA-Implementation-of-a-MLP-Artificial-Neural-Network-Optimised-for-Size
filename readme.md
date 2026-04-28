@@ -20,12 +20,12 @@ Contextual Overview
 
 -----------------------------------------------------------------------------------------------------------------------------------
 # What this software does
-1) Contains 3 programs:
-	A) main.py: First neural network model, floating point precision, exports weights. This is the "software reference model" in the report used for hardware decision making.
+Contains 3 programs:
+1. main.py: First neural network model, floating point precision, exports weights. This is the "software reference model" in the report used for hardware decision making.
 
-	B) NearHardwareAccurateNetwork.py: Emulates hardware system implemented, built off of the original main.py network model. Program produced evidence in Section 5.4 showing that the requantiser location caused collapsed of hardware accuracy.
+2. NearHardwareAccurateNetwork.py: Emulates hardware system implemented, built off of the original main.py network model. Program produced evidence in Section 5.4 showing that the requantiser location caused collapsed of hardware accuracy.
 
-	C) CompleteNNTest.py: Python front end for testing hardware file. Contains 2 functions, one for dataset testing of variable size and another for test case of full 0s
+3. CompleteNNTest.py: Python front end for testing hardware file. Contains 2 functions, one for dataset testing of variable size and another for test case of full 0s
 
 
 
@@ -86,9 +86,9 @@ CompleteNNTest.py
 	• okFrontPanel.dll
 
 ### Step 5: Interpreter selection
-1) Press Ctrl+Shift+P
-2) Type "Python: Select Interpreter"
-3) Choose venv
+1. Press Ctrl+Shift+P
+2. Type "Python: Select Interpreter"
+3. Choose venv
 
 ### Step 6: Running
 Press "Run Python File"
@@ -120,13 +120,13 @@ Move all required files into the shared folder to access inside the ISE
 
 ### Step 5
 Select new project and configure the project with the following settings:
-	• Family: Spartan3
-	• Device XC3S1500
-	• Package: FG320
-	• Speed: -4
-	• Synthesis tool: XST
-	• Simulator: ISim
-	• Preferred Language: Verilog
+	* Family: Spartan3
+	* Device XC3S1500
+	* Package: FG320
+	* Speed: -4
+	* Synthesis tool: XST
+	* Simulator: ISim
+	* Preferred Language: Verilog
 
 ### Step 6
 Add all Verilog files as new sources
