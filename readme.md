@@ -1,4 +1,5 @@
-# Lewis Hunton Beng Electronics Engineering University of Manchester 
+# Lewis Hunton 
+# Beng Electronics Engineering | University of Manchester 
 # 3rd Year Individual Project Software Repository 
 # FPGA Implementation of a MLP Artificial Neural Network Optimised for Size
 -----------------------------------------------------------------------------------------------------------------------------------
@@ -119,14 +120,16 @@ Once complete, launch the VM and open Xilinx Project Navigator
 Move all required files into the shared folder to access inside the ISE
 
 ### Step 5
-Select new project and configure the project with the following settings:
-	* Family: Spartan3
-	* Device XC3S1500
-	* Package: FG320
-	* Speed: -4
-	* Synthesis tool: XST
-	* Simulator: ISim
-	* Preferred Language: Verilog
+Select **New Project** and configure the project with the following settings:
+
+- **Family:** Spartan-3  
+- **Device:** XC3S1500  
+- **Package:** FG320  
+- **Speed:** -4  
+- **Synthesis tool:** XST  
+- **Simulator:** ISim  
+- **Preferred Language:** Verilog
+
 
 ### Step 6
 Add all Verilog files as new sources
