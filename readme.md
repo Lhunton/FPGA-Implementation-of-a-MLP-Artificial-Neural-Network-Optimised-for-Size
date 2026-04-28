@@ -134,30 +134,30 @@ Select **New Project** and configure the project with the following settings:
 ### Step 6
 Add all Verilog files as new sources
 Aditionally (OpalKelly files):
-	• Counters.v
-	• okLibrary.v 
+	- Counters.v
+	- okLibrary.v 
 
 ### Step 7: 
 To Run Simulations: 
-• Go to simulation view in left hand hierarchy
-• Select the test bench to run
-• Select simulate behavioral model
+- Go to simulation view in left hand hierarchy
+- Select the test bench to run
+- Select simulate behavioral model
 
 
 
 -----------------------------------------------------------------------------------------------------------------------------------
 # Expected Software Outputs
-• main.py:
+- main.py:
 9 Output graphs plotted together with exported weights and biases demonstrating hidden node count vs bit width vs activation function represented as accuracy.
 
-• NearHardwareAccurateNetwork.py:
+- NearHardwareAccurateNetwork.py:
 3 consecutive plots demonstrating expected hardware level accuracy as a matrix of hidden layer bit shifts against output layer bit shifts
 
-• CompleteNNTest.py:
+- CompleteNNTest.py:
 True value of inputs and hardware decisions and the total accuracy of the system 
 
 
 
 -----------------------------------------------------------------------------------------------------------------------------------
 # Known limitation:
-• main.py computes serially and takes a long time to compute on slower processors
+- main.py computes serially and takes a long time to compute on slower processors
