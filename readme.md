@@ -62,36 +62,36 @@ Counters.v (Copyright - Not provided)
 
 This model was written in Python 3.13.7
 
-### Prerequisites:
+### **Prerequisites:**
 - Visual Studio Code (https://code.visualstudio.com/)
 - Python (https://www.python.org/downloads/)
 
-### Step 1: Create a Virtual Environment:
+### **Step 1: Create a Virtual Environment:**
 python -m venv venv
 
-### Step 2: Activate the Virtual Environment:
+### **Step 2: Activate the Virtual Environment:**
 venv\Scripts\activate
 
-### Step 3: Install Dependencies:
+### **Step 3: Install Dependencies:**
 pip install -r requirements.txt
 
-### Step 4: Open in VS Code:
+### **Step 4: Open in VS Code:**
 main.py
 NearHardwareAccurateNetwork.py
 CompleteNNTest.py
 
-### Step 4.5: If Testing CompleteNNTest.py with Hardware:
+### **Step 4.5: If Testing CompleteNNTest.py with Hardware:**
 - .bit file is required in the same directory as .py
 - OpalKelly files are also required in the same directory:
 	- ok.py
 	- okFrontPanel.dll
 
-### Step 5: Interpreter selection:
+### **Step 5: Interpreter selection:**
 1. Press Ctrl+Shift+P
 2. Type "Python: Select Interpreter"
 3. Choose venv
 
-### Step 6: Running:
+### **Step 6: Running:**
 Press "Run Python File"
 
 
@@ -99,27 +99,27 @@ Press "Run Python File"
 -----------------------------------------------------------------------------------------------------------------------------------
 # Xilinx ISE 14.2 Install Instructions:
 
-### Prerequisites:
+### **Prerequisites:**
 Oracle Virtual Box
 Xilinx ISE 14.2 Installer 
 (https://www.xilinx.com/support/download/index.html/content/xilinx/en/downloadNav/vivado-design-tools/archive.html)
 At least 20GB of free disk space
 Sufficient Allocated RAM to the VM
 
-### Step 1:
+### **Step 1:**
 Run the Xilinx ISE 14.2 installer
 
-### Step 2:
+### **Step 2:**
 • Follow the on-screen prompts
 • After the VM is configured, verify sufficient RAM to prevent crashes.
 
-### Step 3:
+### **Step 3:**
 Once complete, launch the VM and open Xilinx Project Navigator
 
-### Step 4:
+### **Step 4:**
 Move all required files into the shared folder to access inside the ISE
 
-### Step 5:
+### **Step 5:**
 Select **New Project** and configure the project with the following settings:
 
 - **Family:** Spartan-3  
@@ -131,13 +131,13 @@ Select **New Project** and configure the project with the following settings:
 - **Preferred Language:** Verilog
 
 
-### Step 6:
+### **Step 6:**
 Add all Verilog files as new sources
 Aditionally (OpalKelly files):
 	- Counters.v
 	- okLibrary.v 
 
-### Step 7: 
+### **Step 7:**
 To Run Simulations: 
 - Go to simulation view in left hand hierarchy
 - Select the test bench to run
@@ -146,15 +146,17 @@ To Run Simulations:
 
 
 -----------------------------------------------------------------------------------------------------------------------------------
-# Expected Software Outputs:
-1. main.py:
- - 9 Output graphs plotted together with exported weights and biases demonstrating hidden node count vs bit width vs activation function represented as accuracy.
+## Expected Software Outputs
 
-2. NearHardwareAccurateNetwork.py:
- - 3 consecutive plots demonstrating expected hardware level accuracy as a matrix of hidden layer bit shifts against output layer bit shifts
+1. **main.py**  
+   Produces nine output graphs plotted together with exported weights and biases, demonstrating the relationship between hidden node count, bit width, and activation function accuracy.
 
-3. CompleteNNTest.py:
- - True value of inputs and hardware decisions and the total accuracy of the system 
+2. **NearHardwareAccurateNetwork.py**  
+   Produces three consecutive plots showing expected hardware-level accuracy as a matrix of hidden-layer bit shifts versus output-layer bit shifts.
+
+3. **CompleteNNTest.py**  
+   Outputs the true input values, corresponding hardware decisions, and the overall system accuracy.
+
 
 
 
