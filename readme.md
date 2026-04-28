@@ -1,8 +1,8 @@
-==================================================================================
+# H1
 Lewis Hunton Beng Electronics Engineering University of Manchester 
 3rd Year Individual Project Software Repository 
 FPGA Implementation of a MLP Artificial Neural Network Optimised for Size
-==================================================================================
+
 
 This repository contains
 	1) Software reference models referred to within the report
