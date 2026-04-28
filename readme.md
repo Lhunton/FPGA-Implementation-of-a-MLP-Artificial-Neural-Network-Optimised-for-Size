@@ -1,17 +1,17 @@
 # Lewis Hunton 
+# FPGA Implementation of a MLP Artificial Neural Network Optimised for Size
 # Beng Electronics Engineering | University of Manchester 
 # 3rd Year Individual Project Software Repository 
-# FPGA Implementation of a MLP Artificial Neural Network Optimised for Size
 -----------------------------------------------------------------------------------------------------------------------------------
 
 This repository contains
-	1) Software reference models referred to within the report
-	2) All Verilog design files 
-		(excluding files containing copyrighted Opal Kelly files)
-	3) All verification test benches and VHD exports
-	4) User constraints file for XC3S1500 Spartan-3
-	5) Synthesised full system .bit file
-	6) A full system level diagram
+1. Software reference models referred to within the report
+2. All Verilog design files 
+	- (excluding files containing copyrighted Opal Kelly files)
+3. All verification test benches and VHD exports
+4. User constraints file for XC3S1500 Spartan-3
+5. Synthesised full system .bit file
+6. A full system level diagram
 
 Contextual Overview
 ![alt text](https://github.com/Lhunton/FPGA-Implementation-of-a-MLP-Artificial-Neural-Network-Optimised-for-Size/blob/main/TopLevelDiagram.png "TopLevelDiagram")
@@ -81,10 +81,10 @@ NearHardwareAccurateNetwork.py
 CompleteNNTest.py
 
 ### Step 4.5: If Testing CompleteNNTest.py with Hardware
-• .bit file is required in the same directory as .py
-• OpalKelly files are also required in the same directory:
-	• ok.py
-	• okFrontPanel.dll
+- .bit file is required in the same directory as .py
+- OpalKelly files are also required in the same directory:
+	- ok.py
+	- okFrontPanel.dll
 
 ### Step 5: Interpreter selection
 1. Press Ctrl+Shift+P
