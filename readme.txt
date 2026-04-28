@@ -13,7 +13,10 @@ This repository contains
 	5) Synthesised full system .bit file
 	6) A full system level diagram
 
-![Top-level FPGA neural network architecture](TopLevelDiagram.png)	
+## Contextual Overview
+
+![Top-level FPGA neural network architecture](TopLevelDiagram.png)
+``
 
 
 
