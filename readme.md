@@ -32,25 +32,26 @@ Contextual Overview
 
 -----------------------------------------------------------------------------------------------------------------------------------
 # Verilog file hierarchy
+''
 Counters.v (Copyright - Not provided)
-	|-TopLevelNN.v
-		|-NN_FSM.v
-		|-Argmaax_output.v
-		|-MACInputDataPath.v
-			|-InputBuffer.v
-			|-Scratchpad.v
-			|-InputAdapter.v
-			|-NNPackedMemory.xco
-			|-MA_Array.v
-				|-MAC_Unit.v
-					|-BaughWooley_Multiplier_8bit.v
-					|-MAC_Accumulator_64_16bit.v
-					|-Requantiser_22to8bit.v
-			|-Adder_array_RCA_8bit.v
-				|-Ripple_Carry_Adder_8bit.v
-					|-Full_adder.v
-			|-Activation_Function_Block.v
-
+	└─TopLevelNN.v
+		├─NN_FSM.v
+		├─Argmaax_output.v
+		└─MACInputDataPath.v
+			├─InputBuffer.v
+			├─Scratchpad.v
+			├─InputAdapter.v
+			├─NNPackedMemory.xco
+			├─MA_Array.v
+				└─MAC_Unit.v
+					├─BaughWooley_Multiplier_8bit.v
+					├─MAC_Accumulator_64_16bit.v
+					└─Requantiser_22to8bit.v
+			├─Adder_array_RCA_8bit.v
+				└─Ripple_Carry_Adder_8bit.v
+					└─Full_adder.v
+			└─Activation_Function_Block.v
+''
 
 
 
