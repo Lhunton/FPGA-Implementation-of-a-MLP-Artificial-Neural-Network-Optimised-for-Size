@@ -147,14 +147,14 @@ To Run Simulations:
 
 -----------------------------------------------------------------------------------------------------------------------------------
 # Expected Software Outputs:
-- main.py:
-9 Output graphs plotted together with exported weights and biases demonstrating hidden node count vs bit width vs activation function represented as accuracy.
+1. main.py:
+ - 9 Output graphs plotted together with exported weights and biases demonstrating hidden node count vs bit width vs activation function represented as accuracy.
 
-- NearHardwareAccurateNetwork.py:
-3 consecutive plots demonstrating expected hardware level accuracy as a matrix of hidden layer bit shifts against output layer bit shifts
+2. NearHardwareAccurateNetwork.py:
+ - 3 consecutive plots demonstrating expected hardware level accuracy as a matrix of hidden layer bit shifts against output layer bit shifts
 
-- CompleteNNTest.py:
-True value of inputs and hardware decisions and the total accuracy of the system 
+3. CompleteNNTest.py:
+ - True value of inputs and hardware decisions and the total accuracy of the system 
 
 
 
