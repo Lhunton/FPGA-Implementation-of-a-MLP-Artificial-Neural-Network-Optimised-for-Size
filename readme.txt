@@ -11,7 +11,9 @@ This repository contains
 	3) All verification test benches and VHD exports
 	4) User constraints file for XC3S1500 Spartan-3
 	5) Synthesised full system .bit file
-	6) A full system level diagram	
+	6) A full system level diagram
+
+![Top-level FPGA neural network architecture](top_level_diagram.png)	
 
 
 
