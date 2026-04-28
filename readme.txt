@@ -14,8 +14,7 @@ This repository contains
 	6) A full system level diagram
 
 Contextual Overview
-
-![Top-level FPGA neural network architecture](TopLevelDiagram.png)
+![alt text](https://github.com/Lhunton/FPGA-Implementation-of-a-MLP-Artificial-Neural-Network-Optimised-for-Size/blob/main/TopLevelDiagram.png "TopLevelDiagram")
 
 
 
