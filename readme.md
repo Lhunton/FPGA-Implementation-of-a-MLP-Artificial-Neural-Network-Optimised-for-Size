@@ -4,7 +4,7 @@
 # 3rd Year Individual Project Software Repository 
 -----------------------------------------------------------------------------------------------------------------------------------
 
-This repository contains
+## This repository contains
 1. Software reference models referred to within the report
 2. All Verilog design files 
 	- (excluding files containing copyrighted Opal Kelly files)
