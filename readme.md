@@ -1,8 +1,7 @@
-# H1
-Lewis Hunton Beng Electronics Engineering University of Manchester 
-3rd Year Individual Project Software Repository 
-FPGA Implementation of a MLP Artificial Neural Network Optimised for Size
-
+# Lewis Hunton Beng Electronics Engineering University of Manchester 
+# 3rd Year Individual Project Software Repository 
+# FPGA Implementation of a MLP Artificial Neural Network Optimised for Size
+-----------------------------------------------------------------------------------------------------------------------------------
 
 This repository contains
 	1) Software reference models referred to within the report
@@ -19,8 +18,8 @@ Contextual Overview
 
 
 
-==================================================================================
-What this software does
+-----------------------------------------------------------------------------------------------------------------------------------
+# What this software does
 1) Contains 3 programs:
 	A) main.py: First neural network model, floating point precision, exports weights. This is the "software reference model" in the report used for hardware decision making.
 
@@ -31,8 +30,8 @@ What this software does
 
 
 
-==================================================================================
-Verilog file hierarchy
+-----------------------------------------------------------------------------------------------------------------------------------
+# Verilog file hierarchy
 Counters.v (Copyright - Not provided)
 	|-TopLevelNN.v
 		|-NN_FSM.v
@@ -56,8 +55,8 @@ Counters.v (Copyright - Not provided)
 
 
 
-==================================================================================
-Software Model Install Instructions
+-----------------------------------------------------------------------------------------------------------------------------------
+# Software Model Install Instructions
 
 This model was written in Python 3.13.7
 
@@ -95,8 +94,8 @@ Press "Run Python File"
 
 
 
-==================================================================================
-Xilinx ISE 14.2 Install Instructions
+-----------------------------------------------------------------------------------------------------------------------------------
+# Xilinx ISE 14.2 Install Instructions
 
 ///Prerequisites
 Oracle Virtual Box
@@ -142,8 +141,8 @@ To Run Simulations:
 
 
 
-==================================================================================
-Expected Software Outputs
+-----------------------------------------------------------------------------------------------------------------------------------
+# Expected Software Outputs
 • main.py:
 9 Output graphs plotted together with exported weights and biases demonstrating hidden node count vs bit width vs activation function represented as accuracy.
 
@@ -155,6 +154,6 @@ True value of inputs and hardware decisions and the total accuracy of the system
 
 
 
-==================================================================================
-Known limitation:
+-----------------------------------------------------------------------------------------------------------------------------------
+# Known limitation:
 • main.py computes serially and takes a long time to compute on slower processors
