@@ -1,6 +1,5 @@
 # FPGA Implementation of a MLP Artificial Neural Network Optimised for Size
-## Lewis Hunton 
-## BEng Electronics Engineering | University of Manchester 
+## Lewis Hunton BEng Electronics Engineering | University of Manchester 
 ## 3rd Year Individual Project Software Repository 
 -----------------------------------------------------------------------------------------------------------------------------------
 
